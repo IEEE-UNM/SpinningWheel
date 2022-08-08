@@ -7,3 +7,9 @@ Clone this repository and add the cloned repository as a subdirtory in CMakeList
 ```sh
 git clone https://github.com/IEEE-UNM/SpinningWheel.git
 ```
+
+CMakeLists.txt in the project file
+``` cmake
+...
+add_subdirectory(path/to/SpinningWheel)
+```
