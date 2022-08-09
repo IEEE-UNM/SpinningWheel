@@ -24,7 +24,6 @@ const QColor colours[] = {
     Qt::gray,
     Qt::darkGray,
     Qt::lightGray,
-    Qt::white,
 };
 
 class SpinningWheel: public QWidget {
