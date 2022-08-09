@@ -26,6 +26,7 @@ void SpinningWheel::updateItems(QStringList inputItems) {
             colour.push_back(this->getRandomColour());
         }
     }
+    this->update();
 }
 
 SpinningWheel::SpinningWheel(QWidget *parent = nullptr) {
