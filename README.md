@@ -13,3 +13,7 @@ CMakeLists.txt in the project file
 ...
 add_subdirectory(path/to/SpinningWheel)
 ```
+
+# TODO
+  * [ ] Fixed bug with pie drawing when there are more items
+  * [ ] Added clicking to spin support for the wheel
