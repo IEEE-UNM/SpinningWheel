@@ -29,7 +29,7 @@ void SpinningWheel::updateItems(QStringList inputItems) {
     this->update();
 }
 
-SpinningWheel::SpinningWheel(QWidget *parent = nullptr) {
+SpinningWheel::SpinningWheel(QWidget *parent) {
     this->setParent(parent);
 
     // Adding Temporarty Item

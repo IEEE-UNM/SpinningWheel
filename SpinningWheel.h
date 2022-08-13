@@ -30,7 +30,7 @@ class SpinningWheel: public QWidget {
     Q_OBJECT
     public:
         void updateItems(QStringList);
-        SpinningWheel(QWidget *);
+        SpinningWheel(QWidget * = nullptr);
         SpinningWheel(QStringList, QWidget *);
         QStringList getItems();
     public slots:
