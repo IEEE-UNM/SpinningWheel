@@ -69,6 +69,12 @@ void SpinningWheel::stop() {
     emit stopped(currentItem);
 }
 
+void SpinningWheel::reset() {
+    timerId = startTimer(100);
+    spinRatio = 1;
+    emit resetted();
+}
+
 QString SpinningWheel::getCurrentItem() {
     int turnedAngle = - startAngle % 5760;
     int itemIndex = turnedAngle / spanAngle;

@@ -36,9 +36,11 @@ class SpinningWheel: public QWidget {
     public slots:
         void spin();
         void stop();
+        void reset();
         QString getCurrentItem();
     signals:
         void stopped(QString);
+        void resetted();
     protected:
         void timerEvent(QTimerEvent *);
         void paintEvent(QPaintEvent *paintEvent);
